@@ -201,3 +201,53 @@ margin:0;
         padding: 5px 50px;
     }
 }
+
+@media (min-width: 451px) and (max-width: 770px) {
+    .hi {
+        display: flex;
+    }
+    .hi_row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+        align-content: center;
+        padding: 10px 45px;
+    }
+    
+    .hi_text {
+        font-size: 22px;
+    }
+    .form_item_1 {
+        display: flex;
+    }
+    .hi_body {
+        font-size: 15px;
+    }
+    .input [type="text"], [type="tel"], [type="text"], [type="date"] {
+        width: 330px;
+        height: 28px;
+        font-size: 13px;
+        margin-bottom: 3px;
+    }
+    .select-type1 {
+        width: 335px;
+        height: 33px;
+        font-size: 13px;  
+        margin-bottom: 3px;
+    }
+    .hi_left {
+        font-size: 15px;
+    }
+    .select-type2 {
+        width: 65px;
+        height: 33px;
+        font-size: 13px;
+        margin-bottom: 3px;
+    }
+    .hi_submit {
+        margin-bottom: 3px;
+        font-size: 18px;
+        text-decoration: none;
+        padding: 5px 50px;
+    }
+}

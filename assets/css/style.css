@@ -3,9 +3,7 @@ body {
     margin: 0px;
 }
 
-
 .wrapper {
-    overflow: hidden;
     overflow: hidden;
 
     display: flex;
@@ -39,7 +37,6 @@ body {
     text-transform: uppercase;
     line-height: 1;
     align-self:center;
-    margin-bottom:20px;
 
 }
 
@@ -78,6 +75,7 @@ body {
     color: #ffffff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
+    padding-left: 8px;
    
 }
 
@@ -90,6 +88,14 @@ body {
     color: #ffffff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
+    padding-left: 8px;
+}
+.select-type1:hover, .select-type2:hover, input:hover {
+    color: #eb7954;
+    background: #5e5e58;
+    box-shadow: 0px 0px 2px #eb7954;
+    transition: all 0.3s ease;
+
 }
 
 .select-type2 {
@@ -101,6 +107,7 @@ body {
     color: #ffffff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
+    padding-left: 8px;
 }
 
 .hi_left {
@@ -142,7 +149,7 @@ body {
 }
 .form_item_2{
     display:flex;
-
+    margin: 10px 55px;
 }
 
 .hi_riv{
@@ -151,6 +158,9 @@ body {
 .hi_titel_1 {
     display: flex;
 }
+
+
+
 
 @media (max-width: 450px){
     .hi {
@@ -171,6 +181,10 @@ body {
     .form_item_1 {
         display: flex;
         flex-wrap: wrap;
+    }
+    .form_item_2 {
+        display: flex;
+        margin: 5px -3px;
     }
     .hi_body {
         font-size: 12px;
@@ -221,18 +235,23 @@ body {
     }
     .form_item_1 {
         display: flex;
+        justify-content: space-around;
+    }
+    .form_item_2 {
+        display: flex;
+        margin: 5px -3px;
     }
     .hi_body {
         font-size: 15px;
     }
     .input [type="text"], [type="tel"], [type="text"], [type="date"] {
-        width: 330px;
+        width: 315px;
         height: 28px;
         font-size: 13px;
         margin-bottom: 3px;
     }
     .select-type1 {
-        width: 335px;
+        width: 320px;
         height: 33px;
         font-size: 13px;  
         margin-bottom: 3px;
